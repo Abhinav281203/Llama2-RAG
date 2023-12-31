@@ -51,7 +51,8 @@ def model_tokenizer_embedder(model_name, auth_token):
 def load_documents(directory):
     documents = []
     for item_path in glob(directory + "*.pdf"):
-        documents.extend(loader.load(file_path=Path(item_path), metadata=True))
+        # documents.extend(loader.load(file_path=Path(item_path), metadata=True))
+        documents.extend(loader.load(file_path=item_path, metadata=True))
     return documents
 
 
