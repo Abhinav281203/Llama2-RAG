@@ -1,18 +1,17 @@
-accelerate==0.24.1
-bitsandbytes==0.41.2.post2
-einops==0.7.0
-glob2==0.7
-langchain==0.0.336
-llama-hub==0.0.19
-llama-index==0.7.21
-openai==0.28.0
-pypdf==3.17.1
-scipy==1.11.3
-sentence-transformers==2.2.2
-sentencepiece==0.1.99
-torch @ https://download.pytorch.org/whl/cu118/torch-2.1.0%2Bcu118-cp310-cp310-linux_x86_64.whl#sha256=a81b554184492005543ddc32e96469f9369d778dedd195d73bda9bed407d6589
-torchaudio @ https://download.pytorch.org/whl/cu118/torchaudio-2.1.0%2Bcu118-cp310-cp310-linux_x86_64.whl#sha256=cdfd0a129406155eee595f408cafbb92589652da4090d1d2040f5453d4cae71f
-torchvision @ https://download.pytorch.org/whl/cu118/torchvision-0.16.0%2Bcu118-cp310-cp310-linux_x86_64.whl#sha256=033712f65d45afe806676c4129dfe601ad1321d9e092df62b15847c02d4061dc
-transformers==4.35.2
-xformers==0.0.22.post7
-streamlit==1.28.2
+torch==1.10.0+cu117
+torchvision==0.11.1+cu117
+torchaudio==0.10.0+cu117
+langchain
+einops
+accelerate
+transformers
+bitsandbytes
+scipy
+xformers
+sentencepiece
+llama-index
+llama_hub
+sentence-transformers
+pypdf
+openai
+glob2
